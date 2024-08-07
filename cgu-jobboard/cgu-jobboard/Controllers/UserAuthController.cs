@@ -17,9 +17,9 @@ namespace cgu_jobboard.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        [HttpPost("SignIn")]
+        [HttpPost("LogIn")]
         [EnableCors("default")]
-        public async Task<IActionResult> SignIn([FromBody] UserLoginModel dataObject)
+        public async Task<IActionResult> LogIn([FromBody] UserLoginModel dataObject)
         {
 
             var email = dataObject.Email;
@@ -42,22 +42,67 @@ namespace cgu_jobboard.Controllers
                 var user = JsonConvert.DeserializeObject<UserLoginDataModel>(data);
 
                 Globals.UserId = user.Id;
-                Globals.CompanyUser = user.CompanyUser;
+                Globals.CompanyUser = user.IsCompanyUser;
                 HttpContext.Session.SetInt32("Id", user.Id);
                 HttpContext.Session.SetString("Email", user.Email);
-                HttpContext.Session.SetInt32("CompanyUser", Convert.ToInt32(user.CompanyUser));
+                HttpContext.Session.SetInt32("CompanyUser", Convert.ToInt32(user.IsCompanyUser));
+
+                var resultPost = apiClient.GetAsync("gateway/JobPost/GetAllJobPostsByPage?page=1").Result;
+                var dataPost = await resultPost.Content.ReadAsStringAsync();
+                return Json(new
+                {
+                    user = user.Id,
+                    email = user.Email,
+                    companyUser = user.IsCompanyUser,
+                    list = dataPost
+                });
+            }
+
+            return Json(null);
+        }
+
+        [HttpPost("LogOn")]
+        [EnableCors("default")]
+        public async Task<IActionResult> LogOn([FromBody] UserLogonModel dataObject)
+        {
+
+            var email = dataObject.Email;
+            var pwd = dataObject.Password;
+            var pwdConf = dataObject.PasswordConfirmation;
+            var isCompanyUser = dataObject.IsCompanyUser;
+
+            IEnumerable<KeyValuePair<string, string>> content = new List<KeyValuePair<string, string>>
+            {
+                new("email", email),
+                new("password", pwd),
+                new("passwordconf", pwdConf),
+                new("companyUser", isCompanyUser.ToString())
+            };
+
+            // create client and post
+            var apiClient = _httpClientFactory.CreateClient("api-gateway");
+            var result = apiClient.PostAsync("gateway/User/logon", new FormUrlEncodedContent(content)).Result;
+
+            if (result.IsSuccessStatusCode)
+            {
+                var data = await result.Content.ReadAsStringAsync();
+                var user = JsonConvert.DeserializeObject<UserLoginDataModel>(data);
+
+                Globals.UserId = user.Id;
+                Globals.CompanyUser = user.IsCompanyUser;
+                HttpContext.Session.SetInt32("Id", user.Id);
+                HttpContext.Session.SetString("Email", user.Email);
+                HttpContext.Session.SetInt32("CompanyUser", Convert.ToInt32(user.IsCompanyUser));
 
                 return Json(new
                 {
                     user = user.Id,
                     email = user.Email,
-                    companyUser = user.CompanyUser
+                    companyUser = user.IsCompanyUser
                 });
             }
-            else
-            {
-                return Json(null);
-            }
+
+            return Json(null);
         }
     }
 }
