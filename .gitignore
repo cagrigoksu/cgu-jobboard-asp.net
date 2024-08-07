@@ -28,20 +28,20 @@ JobBoard_React/JobBoard_React.Server/appsettings.json
 mono_crash.*
 
 # Build results
-cgu-jobboard/[Dd]ebug/
-cgu-jobboard/[Dd]ebugPublic/
-cgu-jobboard/[Rr]elease/
-cgu-jobboard/[Rr]eleases/
-cgu-jobboard/x64/
-cgu-jobboard/x86/
-cgu-jobboard/[Ww][Ii][Nn]32/
-cgu-jobboard/[Aa][Rr][Mm]/
-cgu-jobboard/[Aa][Rr][Mm]64/
-cgu-jobboard/bld/
+cgu-jobboard/cgu-jobboard/[Dd]ebug/
+cgu-jobboard/cgu-jobboard/[Dd]ebugPublic/
+cgu-jobboard/cgu-jobboard/[Rr]elease/
+cgu-jobboard/cgu-jobboard/[Rr]eleases/
+cgu-jobboard/cgu-jobboard/x64/
+cgu-jobboard/cgu-jobboard/x86/
+cgu-jobboard/cgu-jobboard/[Ww][Ii][Nn]32/
+cgu-jobboard/cgu-jobboard/[Aa][Rr][Mm]/
+cgu-jobboard/cgu-jobboard/[Aa][Rr][Mm]64/
+cgu-jobboard/cgu-jobboard/bld/
 cgu-jobboard/cgu-jobboard/[Bb]in/
-cgu-jobboard/[Oo]bj/
-cgu-jobboard/[Ll]og/
-cgu-jobboard/[Ll]ogs/
+ccgu-jobboard/gu-jobboard/[Oo]bj/
+cgu-jobboard/cgu-jobboard/[Ll]og/
+cgu-jobboard/cgu-jobboard/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 cgu-jobboard/.vs/
