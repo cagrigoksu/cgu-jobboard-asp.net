@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XHtNbDgygTFS9QwZ2vkbRphSJGVAQaVz9FWlqCsy+3Y=",
+  "Source": "cgu-jobboard",
+  "BasePath": "_content/cgu-jobboard",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|c:\\users\\cgust\\desktop\\projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|solutionrelative:cgu-jobboard\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|c:\\users\\cgust\\desktop\\projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|solutionrelative:cgu-jobboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|c:\\users\\cgust\\desktop\\projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\models\\class\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|solutionrelative:cgu-jobboard\\models\\class\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|c:\\users\\cgust\\desktop\\projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\models\\data\\userlogindatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|solutionrelative:cgu-jobboard\\models\\data\\userlogindatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|c:\\users\\cgust\\desktop\\projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DAF298-DF45-4C1C-93BA-A767152E6DDB}|cgu-jobboard\\cgu-jobboard.csproj|solutionrelative:cgu-jobboard\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Controllers\\UserAuthController.cs",
+              "RelativeDocumentMoniker": "cgu-jobboard\\Controllers\\UserAuthController.cs",
+              "ToolTip": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Controllers\\UserAuthController.cs",
+              "RelativeToolTip": "cgu-jobboard\\Controllers\\UserAuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:13:11.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserLoginDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Models\\Data\\UserLoginDataModel.cs",
+              "RelativeDocumentMoniker": "cgu-jobboard\\Models\\Data\\UserLoginDataModel.cs",
+              "ToolTip": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Models\\Data\\UserLoginDataModel.cs",
+              "RelativeToolTip": "cgu-jobboard\\Models\\Data\\UserLoginDataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:12:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Models\\Class\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "cgu-jobboard\\Models\\Class\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Models\\Class\\UserLoginModel.cs",
+              "RelativeToolTip": "cgu-jobboard\\Models\\Class\\UserLoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:11:48.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Globals.cs",
+              "RelativeDocumentMoniker": "cgu-jobboard\\Globals.cs",
+              "ToolTip": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Globals.cs",
+              "RelativeToolTip": "cgu-jobboard\\Globals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:10:34.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Program.cs",
+              "RelativeDocumentMoniker": "cgu-jobboard\\Program.cs",
+              "ToolTip": "C:\\Users\\cgust\\Desktop\\Projects\\cgu-jobboard-angular\\cgu-jobboard-asp.net\\cgu-jobboard\\cgu-jobboard\\Program.cs",
+              "RelativeToolTip": "cgu-jobboard\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAADQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:09:56.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

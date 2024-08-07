@@ -1,0 +1,6 @@
+@cgu_jobboard_HostAddress = http://localhost:5079
+
+GET {{cgu_jobboard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
